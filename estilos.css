@@ -231,73 +231,16 @@ h1{
 }
 
 
-/*
-.contenido-header a{
-    margin: 28px 0 0 0 ;
-    width: 130px;
-    display: inline-block;
-    background: #1FDE82;
-    color: #fff;
-    padding: 12px 0;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 14px;
-    border-radius: 5px;
-    box-shadow: 0px 8px 32px rgba(31, 222, 130, .46);
-}*/
-
 .articulo:hover{
     color: #1FDE82;
     transition: color .5s;
 }
 
 
-/* Questions */
 
-.questions{
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/*proyectos*/
 
-}
-
-.questions>img{
-    width: 550px;
-    animation: ease-in animat 1.5s;
-}
-
-
-.textos-questions{
-    margin: 0 0 0 30px;
-}
-
-.textos-questions p{
-    font-weight: 100;
-    margin-top:14px;
-    color: #5D6678;
-}
-
-.textos-questions a{
-    margin: 28px 0 0 0 ;
-    width: 130px;
-    display: inline-block;
-    background: #1FDE82;
-    color: #fff;
-    padding: 12px 0;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 14px;
-    border-radius: 5px;
-    box-shadow: 0px 8px 32px rgba(31, 222, 130, .46);
-}
-/*Results*/
-
-.results{
+.proyectos{
     background: #2570ff;
     padding-top: 30px;
 
@@ -339,22 +282,25 @@ h1{
     text-align: center;
 }
 
-.results-text{
+.proyectos-text{
     width: 37%;
 }
 
-.results-text h4{
+.proyectos-text h4{
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
+    text-align: center;
+    margin:100px;
 }
 
-.results-text p{
+
+.proyectos-text p{
     color: #fff;
     font-weight: 300;
     margin: 20px 0;
 }
 
-.results-text>a{
+.proyectos-text>a{
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -462,7 +408,7 @@ footer{
 }
 
 /* Responsive */
-@media screen and (max-width:800px){
+@media screen and (max-width:950px){
     .titulo{
         font-size: 45px;
     }
@@ -473,7 +419,7 @@ footer{
         height: 720px;
     }
     .contenido-header>img{
-        width: 300px;
+        width: 400px;
 }
 
     .textos-header{
@@ -484,17 +430,25 @@ footer{
     .articulo{
         width: 45%;
     }
-/*questions*/
 
-.questions{
-    height: 720px;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.questions>img{
-    width: 300px;
+    .articulo1> img{
+        width: 25%;
+        height: 55%; 
+    }
 
-}
+    .articulo> img{
+        width: 25%;
+        height: 55%; 
+    }
+
+
+
+
+
+    .articulo1{
+        width: 45%;
+    }
+
 
 /*result*/
 
@@ -502,7 +456,7 @@ footer{
     flex-direction: column-reverse;
 }
 
-.results-text>a{
+.proyectos-text>a{
     margin-bottom: 60px;
 
 }
@@ -512,7 +466,7 @@ footer{
     width: 100%;
 }
 
-.results-text{
+.proyectos-text{
     width: 100%;
 
 }
@@ -552,9 +506,10 @@ footer{
     margin-bottom: 40px;
 }
 
+
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:780px){
 
     .titulo{
         font-size: 35px;
@@ -570,7 +525,7 @@ footer{
     .nav{
         padding: 0 10px;
     }
-
+ 
     .contenido-header>img{
         width: 250px;
     }
@@ -612,11 +567,8 @@ footer{
     .articulo{
         width: 95%;
     }
-
-
-    /*question*/
-    .questions>img{
-        width: 200px;
+    .articulo1{
+        width: 95%;
     }
 
     /*result*/
@@ -624,18 +576,11 @@ footer{
         width: 95%;
     }
 
-    .results-text h4{
+    .proyectos
+     h4{
         font-size: 35px;
     }
 
-    /*Service*/
-    .service>img{
-        width: 200px;
-    }
-
-    .box-skills h4{
-        width: 105%;
-    }
 
     /*footer*/
 
@@ -643,4 +588,25 @@ footer{
         width: 95%;
         margin-bottom: 40px;
     }
+
+
+    @media screen and (max-width:40px){
+
+        .proyectos-text h4{
+            margin:5px;
+
+        }
+
+
+        .partfooter h4{
+            color:#1d273b;
+            font-size: 16px;
+            margin-left:10px ;
+        }
+
+
+    }
+
+
+
 }
