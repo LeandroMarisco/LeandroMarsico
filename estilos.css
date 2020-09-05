@@ -48,7 +48,7 @@ nav {
 }
 
 .enlaces-header{
-    font-weight: 5500;
+    font-size: 22px;
     transition: ease-in-out 0.5s;
     padding-left: 450px;
 }
@@ -431,6 +431,9 @@ footer{
         width: 45%;
     }
 
+    .articulo1{
+        width: 45%;
+    }
     .articulo1> img{
         width: 25%;
         height: 55%; 
@@ -523,7 +526,7 @@ footer{
     }
 
     .nav{
-        padding: 0 10px;
+       
     }
  
     .contenido-header>img{
@@ -543,7 +546,7 @@ footer{
         width: 100%;
         height: 100vh;
         display: flex;
-        align-items: center;
+        padding-left: 250px;
         flex-direction: column;
         justify-content: space-evenly;
         clip-path: circle(0.0% at 100% 0);
@@ -557,6 +560,8 @@ footer{
     }
     .nav .enlaces-header a{
         color: #fff;
+        text-align: left;
+        
     }
 
     .hamburguer{
@@ -565,10 +570,21 @@ footer{
 
     /*About us*/
     .articulo{
-        width: 95%;
+        width: 60%;
     }
+
+    .articulo img{
+        width: 25%;
+        height: 55%;
+    }
+
     .articulo1{
-        width: 95%;
+        width: 60%;
+    }
+
+    .articulo1 img{
+        width: 25%;
+        height: 55%;
     }
 
     /*result*/
@@ -589,14 +605,19 @@ footer{
         margin-bottom: 40px;
     }
 
+    @media screen and (max-width:600px){
+        .enlaces-header{
+            padding-left: 140px;
+        }
+    }
 
-    @media screen and (max-width:40px){
+
+    @media screen and (max-width:400px){
 
         .proyectos-text h4{
             margin:5px;
 
         }
-
 
         .partfooter h4{
             color:#1d273b;
@@ -605,8 +626,10 @@ footer{
         }
 
 
+        .enlaces-header{
+            padding-left: 100px;
+        }
+
     }
-
-
 
 }
