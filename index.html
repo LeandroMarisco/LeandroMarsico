@@ -12,17 +12,18 @@
 
 <body>
     <header>
+        <div id="inicio"class=""></div>
         <nav>
-            <section class="nav">
+            <section  class="nav">
                 <div class="logo">
                     <img src="img/leandro.png" alt="">
                 </div>
                 <div class="enlaces-header">
-                    <a href="#">Inicio</a>
+                    <a href="#inicio">Inicio</a>
                     <a href="#">About me</a>
-                    <a href="#">Proyectos</a>
-                    <a href="#">Contacto</a>
-                    <a href="#">Redes</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="#contacto">Redes</a>
                 </div>
                 <div class="hamburguer">
                     <i class="fas fa-bars"></i>
@@ -69,33 +70,33 @@
                 </div>
                 <div class="articulo1" data-aos="zoom-in-right">
                 <img src="img/web.png" alt="">
-                   <h3>Web dising</h3>
+                   <h3>Web Desing</h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="proyectos">
+    <section id="proyectos" class="proyectos">
         <div class="contenedor1 content-resuts">
-            <section class="numbers">
-                <div class="number" data-aos="zoom-in-left">
+            <section class="proyects">
+                <div class="proyect" data-aos="zoom-in-left">
                     <p>E-Commerce Chichina Deco</p>
                     <a href="">En proceso</a>                    
                 </div>
 
-                <div class="number" data-aos="zoom-in-left">
+                <div class="proyect" data-aos="zoom-in-left">
                     <p>API Tragos con Kotlin</p>
                     <a href="">En proceso</a>                    
                 </div>
 
-                <div class="number" data-aos="zoom-in-left">
+                <div class="proyect" data-aos="zoom-in-left">
                     <p>E-Commerce Tamarindo</p>
                     <a href="">En proceso</a>                    
                 </div>
 
-                <div class="number" data-aos="zoom-in-left">
+                <div class="proyect" data-aos="zoom-in-left">
                 <p>App Tamarindo (Kotlin)</p>
-                <a href="">En proceso</a>                    
+                <a target="_blank" href="https://github.com/LeandroMarisco/PruebaTamarindo">El Repo</a>                    
                 </div>
 
             </section>
@@ -116,10 +117,15 @@
     </section>
 
     <footer>
-
-        <div class="partfooter">
+        <div id="contacto"class="partfooter">
             <img src="img/leandro.png" alt="">
         </div>
+
+        <div class="partfooter">
+            <h4>Contacto:</h4>
+            <i> lmarsico15@gmail.com</i>
+        </div>
+
         <div class="partfooter">
             <h4>Redes sociales</h4>
             <div class="social-media">
@@ -128,6 +134,7 @@
                     href="https://www.instagram.com/leandro.marsico/">
                     <i class="fab fa-instagram"></i>
                 </a>
+
                 <a class="social_linkedin" title="Leandro Marsico Linkedin" target="_blank"
                     href="https://www.linkedin.com/in/leandro-marsico-1b8b2b137/">
                     <i class="fab fa-linkedin-in"></i>
@@ -137,20 +144,14 @@
                     href="https://github.com/LeandroMarisco">
                     <i class="fab fa-github"></i>
                 </a>
-
             </div>
-
-
         </div>
 
     </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
     <script src="https://kit.fontawesome.com/2c8f261014.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
     <script src="js/main.js"></script>
-
 </body>
-
 </html>

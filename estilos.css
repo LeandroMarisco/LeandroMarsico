@@ -251,14 +251,14 @@ h1{
     justify-content: space-evenly;
 }
 
-.numbers{
+.proyects{
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.numbers .number{
+.proyects .proyect{
     width: 45%;
     background: rgba(255, 255, 255, .2);
     color: #fff;
@@ -267,7 +267,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.numbers .number h4{
+.proyects .proyect h4{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -276,7 +276,7 @@ h1{
 
 }
 
-.numbers .number p{
+.proyects .proyect p{
     color: #f2f5fc;
     font-weight: 300;
     text-align: center;
@@ -300,15 +300,23 @@ h1{
     margin: 20px 0;
 }
 
-.proyectos-text>a{
+.proyects .proyect a{
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    border: 1px solid #fff;
-    padding: 10px 0;
-    width: 120px;
+    border: 1px solid #5D6678;
+    background: rgb(68, 78, 77);
     text-align: center;
+    margin-inline-start: 22% ;
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 18px;
     border-radius: 5px;
+}
+
+.proyects .proyect a:hover{
+    background-color: #307453;
 }
 
 /*Services*/
@@ -444,10 +452,6 @@ footer{
         height: 55%; 
     }
 
-
-
-
-
     .articulo1{
         width: 45%;
     }
@@ -464,7 +468,7 @@ footer{
 
 }
 
-.numbers{
+.proyects{
 
     width: 100%;
 }
@@ -474,8 +478,13 @@ footer{
 
 }
 
-.numbers .number h4{
+.proyects .proyect h4{
     font-size: 32px;
+}
+
+.proyects .proyect a{
+  margin-inline-start: 85px ;
+
 }
 
 /*service*/
@@ -525,9 +534,6 @@ footer{
         height: 650px;
     }
 
-    .nav{
-       
-    }
  
     .contenido-header>img{
         width: 250px;
@@ -588,9 +594,14 @@ footer{
     }
 
     /*result*/
-    .numbers .number{
+    .proyects .proyect{
         width: 95%;
     }
+
+    .proyects .proyect a{
+        margin-inline-start: 42% ;
+    
+      }
 
     .proyectos
      h4{
@@ -601,18 +612,46 @@ footer{
     /*footer*/
 
     .partfooter{
-        width: 95%;
+        width: 85%;
         margin-bottom: 40px;
     }
+    .partfooter>img{
+        width: 35%;
+     }
 
-    @media screen and (max-width:600px){
-        .enlaces-header{
-            padding-left: 140px;
-        }
+    
+    @media screen and (max-width:620px){
+        .proyects .proyect a{
+           margin-inline-start: 180px ; 
+         }
+   }
+
+   
+   @media screen and (max-width:600px){
+    .enlaces-header{
+        padding-left: 140px;
+    }
+
+    .proyects .proyect a{
+        margin-inline-start: 170px ; 
+      }
+    }
+
+       
+   @media screen and (max-width:510px){
+    .proyects .proyect a{
+        margin-inline-start: 130px ; 
+      }
     }
 
 
-    @media screen and (max-width:400px){
+    @media screen and (max-width:450px){
+        .proyects .proyect a{
+            margin-inline-start: 100px ; 
+          }
+        }
+
+    @media screen and (max-width:420px){
 
         .proyectos-text h4{
             margin:5px;
